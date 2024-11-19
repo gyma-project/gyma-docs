@@ -17,10 +17,10 @@
                     <mxGeometry x="50" y="420" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Gerenciar alunos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="375" y="170" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="415" y="120" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Ver treinadores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="190" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="515" y="160" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="endArrow=block;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,7 +68,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="Gerênciar ficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="240" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="580" y="210" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="26">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -77,7 +77,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="28" value="Associar aluno a ficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="490" y="290" width="200" height="40" as="geometry"/>
+                    <mxGeometry x="520" y="260" width="200" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="28">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -86,12 +86,21 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="30" value="Gerar relatórios" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="320" width="200" height="40" as="geometry"/>
+                    <mxGeometry x="385" y="300" width="200" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="30">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="90" y="300" as="sourcePoint"/>
                         <mxPoint x="339.9999999999991" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Gerênciar horários de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="480" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="34">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="290" as="sourcePoint"/>
+                        <mxPoint x="395" y="330" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
