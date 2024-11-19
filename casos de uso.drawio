@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gTJZUYQtRdJRSf3Q-f7s" name="Página-1">
-        <mxGraphModel dx="743" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="743" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,17 +16,11 @@
                 <mxCell id="4" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="50" y="420" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Cadastrar Alunos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="170" width="140" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="Ver alunos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="190" width="140" height="40" as="geometry"/>
+                <mxCell id="8" value="Gerenciar alunos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="170" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Ver treinadores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="210" width="140" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="Remover Alunos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="250" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="520" y="190" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="endArrow=block;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,43 +34,22 @@
                         <mxPoint x="440" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="9" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="90" y="295.38461538461536" as="sourcePoint"/>
-                        <mxPoint x="270" y="240" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="16" value="" style="endArrow=none;html=1;" parent="1" target="10" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="80" y="290" as="sourcePoint"/>
                         <mxPoint x="400" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="11" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="291" as="sourcePoint"/>
-                        <mxPoint x="520.1708723000861" y="291.3965825539983" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="19" value="Gerênciar treinadores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="344" y="380" width="140" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Remover treinadores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="400" width="140" height="40" as="geometry"/>
+                <mxCell id="20" value="Gerênciar transações financeira" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="430" width="170" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="Cadastrar treinadores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="370" width="140" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="Criar transação financeira" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="460" y="440" width="170" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="" style="endArrow=none;html=1;" parent="1" source="4" edge="1">
+                <mxCell id="21" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" edge="1" target="19">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="390" as="sourcePoint"/>
                         <mxPoint x="260" y="390" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="22" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="18" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="80" y="450" as="sourcePoint"/>
-                        <mxPoint x="270" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="23" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="20" edge="1">
@@ -86,7 +59,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="24" value="Agendar horário" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="120" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="290" y="80" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="24" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -94,8 +67,8 @@
                         <mxPoint x="290" y="130" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="Cadastrar ficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="415" y="290" width="140" height="40" as="geometry"/>
+                <mxCell id="26" value="Gerênciar ficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="240" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="26">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -103,13 +76,22 @@
                         <mxPoint x="270" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="Associar aluno aficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="320" width="200" height="40" as="geometry"/>
+                <mxCell id="28" value="Associar aluno a ficha de treino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="290" width="200" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="28">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="80" y="290" as="sourcePoint"/>
                         <mxPoint x="425" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Gerar relatórios" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="320" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="30">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="300" as="sourcePoint"/>
+                        <mxPoint x="339.9999999999991" y="330" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
