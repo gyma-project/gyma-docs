@@ -1,1 +1,1 @@
-# Documentação do projeto - IF fitness
+# Documentação do projeto - GYMA Gestão de Monitoramento de Academia 
